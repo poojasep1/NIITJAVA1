@@ -1,7 +1,6 @@
 package Serialiazation;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.ObjectInputStream;
 
 public class InstanceOfDemo {
@@ -10,7 +9,7 @@ public class InstanceOfDemo {
 		// TODO Auto-generated method stub
 		FileInputStream fis;
 		
-			fis = new FileInputStream("D://testoutdxc.txt");
+			fis = new FileInputStream("D://testout1txt");
 			ObjectInputStream ois=new ObjectInputStream(fis);
 			Object o=ois.readObject();
 			ois.close();
@@ -21,6 +20,7 @@ public class InstanceOfDemo {
 			else if(o instanceof DogObject )
 			{
 				DogObject d1=(DogObject)o;
+			System.out.printf("dogs variables are %d %d",d1.i,d1.j);
 				
 			}
 			else if(o instanceof rat)
