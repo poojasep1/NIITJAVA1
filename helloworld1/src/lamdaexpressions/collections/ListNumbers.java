@@ -18,7 +18,9 @@ public class ListNumbers {
 		//using lamda expression
 		Comparator<Integer> c=(o1,o2)->(o1<o2)?-1:(o1>o2)?1:0;
 		Collections.sort(a1,c);
+		System.out.println("Lamda Expression usage");
 		System.out.println(a1);
+		System.out.println("Without using lamda expressions");
 		Collections.sort(a1);
 		System.out.println(a1);
 		
