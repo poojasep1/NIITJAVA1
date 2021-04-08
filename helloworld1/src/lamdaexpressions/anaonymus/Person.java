@@ -1,7 +1,7 @@
 package lamdaexpressions.anaonymus;
 
-public class Person {
-	 void eat() {
+abstract public class Person {
+	abstract void eat(); {
 	
 	}
 
