@@ -1,10 +1,6 @@
 package lamdaexpressions;
 
 public interface Sum {
-	public int add(int a,int d); 
-		
+	public int add(int a,int d);
 	
-
-	
-
 }
